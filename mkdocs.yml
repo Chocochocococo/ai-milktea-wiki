@@ -6,7 +6,7 @@ site_author: AI深夜奶茶店社群
 # 外觀設定
 theme:
   name: material
-  language: zh-Hant # 介面語言設為中文
+  language: zh-TW # 介面語言設為中文
   logo: assets/logo.png # 您的 Logo 檔案路徑
   favicon: assets/favicon.png # 您的 Favicon 檔案路徑
   palette:

@@ -1,0 +1,67 @@
+# mkdocs.yml
+site_name: AI深夜奶茶店 Wiki
+site_url: https://your-username.github.io/ai-milktea-wiki/  # 換成您的網址
+site_author: AI深夜奶茶店社群
+
+# 外觀設定
+theme:
+  name: material
+  language: zh # 介面語言設為中文
+  logo: assets/logo.png # 您的 Logo 檔案路徑
+  favicon: assets/favicon.png # 您的 Favicon 檔案路徑
+  palette:
+    # 淺色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: brown # 主色調，可選 brown, teal, orange 等
+      accent: amber # 強調色，可選 amber, indigo 等
+      toggle:
+        icon: material/weather-sunny
+        name: 切換至深色模式
+    # 深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: 切換至淺色模式
+  features:
+    - header.autohide # 向上滾動時自動顯示頂部導覽列，體驗更佳
+    # - navigation.tabs # 【請注意】如果您想要像範例網站那樣，完全使用左側導覽，請將此行註解或刪除
+    - navigation.instant # 啟用快速載入，體驗更流暢
+    - navigation.tracking # 左側選單會自動追蹤並展開您所在的頁面
+    - navigation.sections # 讓左側選單的分類更清晰
+    - navigation.top # 返回頂部按鈕
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+# 導覽列設定
+nav:
+  - 首頁: index.md
+  - 伺服器指南:
+    - 關於我們: server/about.md
+    - 入店須知: server/rules.md
+    - 頻道介紹: server/channels.md
+  - AI RP 教學:
+    - 基礎入門: tutorials/rp/beginner.md
+    - 進階技巧: tutorials/rp/advanced.md
+  - LLM 技術教學:
+    - 模型介紹: tutorials/llm/models.md
+    - Prompt Engineering: tutorials/llm/prompt-engineering.md
+  - 資源分享:
+    - 優質資源列表: resources/awesome-list.md
+    - 工具推薦: resources/tools.md
+  - 貢獻指南: contributing.md
+
+# Markdown 擴充功能
+markdown_extensions:
+  - admonition # 提示框
+  - pymdownx.details # 可折疊區塊
+  - pymdownx.superfences # 程式碼塊加強
+  
+  # ✨ 新增的目錄功能 ✨
+  - toc:
+      permalink: true # 為每個標題增加一個可點擊的錨點連結
+      toc_depth: 3 # 目錄顯示到 H3 標題，您可以依需求調整

@@ -1,0 +1,35 @@
+# .github/workflows/deploy.yml
+name: Deploy to GitHub Pages
+
+# 觸發條件：當 main 分支有新的 push 時執行
+on:
+  push:
+    branches:
+      - main # 或者您的主要分支名稱
+
+# 工作流程權限設定
+permissions:
+  contents: write
+
+# 執行的工作
+jobs:
+  deploy:
+    runs-on: ubuntu-latest # 使用最新的 Ubuntu 環境
+    steps:
+      # 步驟 1: 拉取您的程式碼
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 步驟 2: 設定 Python 環境
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+
+      # 步驟 3: 安裝 MkDocs 與 Material 主題
+      - name: Install dependencies
+        run: pip install mkdocs-material
+
+      # 步驟 4: 建置網站並部署到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

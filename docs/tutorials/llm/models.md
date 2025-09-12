@@ -9,6 +9,7 @@ tags:
 
 ## Gemini  
 堅持使用中文免費RP的最佳選擇。  
+
 - 開發公司：Google  
 - 官網頁面：[點此前往](https://gemini.google.com/app)  
 - API申請頁面：[點此前往](https://aistudio.google.com/apikey)  
@@ -41,6 +42,7 @@ tags:
 - API價格：  
 ## Mistral  
 適合用來進行輔助的模型，如果願意使用英文遊玩RP，也能獨攬全局。  
+
 - 開發公司：Mistral AI  
 - 官網頁面：[點此前往](https://chat.mistral.ai/chat)  
 - API申請頁面：[點此前往](https://admin.mistral.ai/organization/api-keys)  
@@ -72,5 +74,6 @@ API的定價各家都是基於Tokens（符元數）的吞吐量來決定，這�
 過往曾經有大量使用者濫用反代，繞過官方以非法途徑取得並使用Claude的服務，導致官方其後直接介入，進一步對全體使用者採取更嚴格的使用限制。  
 **您的一時爽用，不僅可能讓您吃上官司，還會為全體使用者造成無窮的後患！**  
 **在此呼籲各位使用正當的消費管道遊玩各家的模型，以保障你我的自身權益！**
+
 
 

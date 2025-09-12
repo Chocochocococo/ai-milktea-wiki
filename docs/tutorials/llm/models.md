@@ -16,7 +16,7 @@ tags:
 - API亮點：  
     - 多模態與即時資訊：不只文字，還能理解圖片與進行網路搜尋的能力。  
     - 免費方案大方：完全免費申請，每日的免費額度也提供的很大方，目前（2025/09/12）Gemini-2.5-Pro每天有50則的免費額度，Gemini-2.5-Flash更是有每天250則的免費額度。更多最新詳情請見[官方說明文件](https://ai.google.dev/gemini-api/docs/rate-limits?hl=zh-tw#free-tier)。  
-    - 知識廣泛：知曉不少冷僻知識，懂得語言也多，甚至包含各地方言，用詞足夠接地氣。  
+    - 知識廣泛：知曉不少冷僻知識，懂得語言也多，甚至包含各地方言，用詞足夠親民。  
 - API缺點：  
     - 多鄰國：可能無視使用者指示，穿插使用各國語言，例如：取而代Zi、取而代ที่、取而代에。  
     - 財哥體：多輪對話後，可能出現財哥體或其變種，且不容易挽救，例如：Google，免費，方案，很，大，方。  
@@ -56,16 +56,16 @@ tags:
 - API價格：[官方定價頁面](https://mistral.ai/pricing#api-pricing)  
 ## 價格相關  
 API的定價各家都是基於Tokens（符元數）的吞吐量來決定，這與各家的『分詞器』緊密相關，以下為針對同一段文章的中文版與英文版，各家分詞器計算出的Tokens（符元數）結果，Tokens（符元數）越小，越能節省遊玩花費。  
-### Gemini：  
+### Gemini  
 ![Gemini：繁體中文](../../assets/images/gemini-big5.jpg)  
 ![Gemini：英文](../../assets/images/gemini-eng.jpg)  
-### GPT：  
+### GPT  
 ![GPT：繁體中文](../../assets/images/gpt-big5.jpg)  
 ![GPT：英文](../../assets/images/gpt-eng.jpg)  
-### Claude：  
+### Claude  
 ![Claude：繁體中文](../../assets/images/claude-big5.jpg)  
 ![Claude：英文](../../assets/images/claude-eng.jpg)  
-### Mistral：  
+### Mistral  
 ![Mistral：繁體中文](../../assets/images/mistral-big5.jpg)  
 ![Mistral：英文](../../assets/images/mistral-eng.jpg)  
 ## 絕對禁止事項
@@ -74,6 +74,7 @@ API的定價各家都是基於Tokens（符元數）的吞吐量來決定，這�
 過往曾經有大量使用者濫用反代，繞過官方以非法途徑取得並使用Claude的服務，導致官方其後直接介入，進一步對全體使用者採取更嚴格的使用限制。  
 **您的一時爽用，不僅可能讓您吃上官司，還會為全體使用者造成無窮的後患！**  
 **在此呼籲各位使用正當的消費管道遊玩各家的模型，以保障你我的自身權益！**
+
 
 
 

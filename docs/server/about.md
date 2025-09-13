@@ -16,4 +16,4 @@ tags:
 如果喜歡本伺服器的話記得進行一般驗證！若超過7天未驗證也隨時歡迎回來進行驗證。
 
 
-Discod伺服器連結：
+Discod伺服器連結：[立即加入](https://discord.gg/9BeQfJuhgj)

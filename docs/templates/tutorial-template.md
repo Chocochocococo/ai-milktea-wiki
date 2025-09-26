@@ -1,5 +1,6 @@
 ---
 title: "【請填寫教學主題】"
+description: "【此頁面的描述，不會出現在網頁上，是提供給Google爬蟲的SEO資訊。】"
 date: "YYYY-MM-DD"
 author: "【請填寫您的 Discord ID 或暱稱】"
 tags:

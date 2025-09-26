@@ -1,3 +1,8 @@
+---
+title: "AI深夜奶茶店WWiki"
+description: "專門討論AI RP的社群官方網站。"
+---
+
 # 歡迎來到 AI深夜奶茶店 Wiki！
 
 這裡是「AI深夜奶茶店」Discord 社群的官方知識庫。

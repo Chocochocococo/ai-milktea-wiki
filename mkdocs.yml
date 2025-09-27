@@ -13,16 +13,16 @@ theme:
     # 淺色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: "#876D5A" # 主色調，可選 brown, teal, orange 等
-      accent: "#CDA581" # 強調色，可選 amber, indigo 等
+      primary: brown # 主色調，可選 brown, teal, orange 等
+      accent: amber # 強調色，可選 amber, indigo 等
       toggle:
         icon: material/weather-sunny
         name: 切換至深色模式
     # 深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: "#876D5A"
-      accent: "#CDA581"
+      primary: brown
+      accent: amber
       toggle:
         icon: material/weather-night
         name: 切換至淺色模式

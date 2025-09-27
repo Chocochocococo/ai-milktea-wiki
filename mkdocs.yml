@@ -13,16 +13,16 @@ theme:
     # 淺色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: brown # 主色調，可選 brown, teal, orange 等
-      accent: amber # 強調色，可選 amber, indigo 等
+      primary: #876D5A # 主色調，可選 brown, teal, orange 等
+      accent: #CDA581 # 強調色，可選 amber, indigo 等
       toggle:
         icon: material/weather-sunny
         name: 切換至深色模式
     # 深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: brown
-      accent: amber
+      primary: #876D5A
+      accent: #CDA581
       toggle:
         icon: material/weather-night
         name: 切換至淺色模式
@@ -45,6 +45,7 @@ nav:
     - 入店須知: server/rules.md
     - 頻道介紹: server/channels.md
   - AI RP 教學:
+    - 基礎知識: tutorials/rp/knowledger.md
     - 基礎入門: tutorials/rp/beginner.md
     - 進階技巧: tutorials/rp/advanced.md
   - LLM 技術教學:

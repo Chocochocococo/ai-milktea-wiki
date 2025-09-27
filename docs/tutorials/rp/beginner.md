@@ -19,9 +19,7 @@ AI只是**輔助工具**，請不要讓AI取代自己的思考能力。
 許多人會直接用AI查資料或直接問他AI相關知識，但基於AI會有AI幻覺（說出實際不存在的東西、積非成是），以及資料庫未更新、回答可能被誘導（不論有意無意）等種種前提，因此十分不推薦用AI查資料。
 
 具體舉例：就像問gemini他的版本，即便他的模型是flash2.5他也會回自己是1.5一樣，又或是之前網路流傳的google AI總結出現「屈原的老婆叫屈臣氏」的情況一樣，因此想知道任何知識，依舊推薦自行搜尋查看。
-<center class="half">
- <img src="../../assets/images/tutorials-ai-delusion1.png" width="50%"><img src="../../assets/images/tutorials-ai-delusion2.png" width="50%"> 
-</center>
+ <img src="../../assets/images/tutorials-ai-delusion1.png" width="50%"> <img src="../../assets/images/tutorials-ai-delusion2.png" width="50%"> 
 
 ## 設定與字數不是越多越詳細就越好
 字數（Token）過多的情況，會造成LLM的注意力渙散，角卡的Token數一般建議維持在2000內。同時，過於詳細的設定會讓AI難以自由演繹角色，行為模式比較容易變得刻板僵硬。
@@ -36,3 +34,4 @@ LLM會依據前後文以及輸入的內容來調整自己輸出的內容，換�
 比起「不要做」，使用「禁止」或「避免」的相關詞匯效果會更好，就像說到「不要去想大象」時會想到大象，LLM也是如此。
 
 更多相關知識請加入奶茶店伺服器查看！
+

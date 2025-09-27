@@ -51,7 +51,7 @@ nav:
   - LLM 技術教學:
     - 模型介紹: tutorials/llm/models.md
     - Prompt Engineering: tutorials/llm/prompt-engineering.md
-  - 店員私心推薦:
+  - 資源分享:
     - 優質資源列表: resources/awesome-list.md
     - 工具推薦: resources/tools.md
   - 貢獻指南: CONTRIBUTING.md

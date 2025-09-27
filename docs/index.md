@@ -20,4 +20,4 @@ description: "AI深夜奶茶店是專門討論AI RP的Discord社群，此Wiki是
 
 如果喜歡本伺服器的話記得進行一般驗證！若超過7天未驗證也隨時歡迎回來進行驗證。
 
-Discod伺服器連結：立即加入
+Discod伺服器連結：[**立即加入**](https://discord.gg/9BeQfJuhgj)

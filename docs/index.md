@@ -5,8 +5,9 @@ description: "AI深夜奶茶店是專門討論AI RP的Discord社群，此Wiki是
 
 # 歡迎來到 AI深夜奶茶店 Wiki！
 
-「AI深夜奶茶店」是為熱愛 AI 角色扮演(AI Role-playing)的人們而設的繁體中文 Discord 伺服器，讓大家能夠交流、討論、分享關於 AI 角色扮演的點點滴滴！而這裡是「AI深夜奶茶店」Discord 社群的官方網站。
+「AI深夜奶茶店」是為熱愛 AI 角色扮演(AI Role-playing) 的人們而設的繁體中文 Discord 伺服器，在伺服器內能夠交流、討論、分享、學習關於 AI 角色扮演的點點滴滴！
 
+而這裡是「AI深夜奶茶店」Discord 社群的官方網站。
 你可以在這裡找到：
 
 - 伺服器的完整介紹與規則

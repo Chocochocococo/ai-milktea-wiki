@@ -45,6 +45,7 @@ nav:
     - 入店須知: server/rules.md
     - 頻道介紹: server/channels.md
   - AI RP 教學:
+    - 基礎入門測試: tutorials/rp/beginner-test.css
     - 基礎入門: tutorials/rp/beginner.md
     - 進階技巧: tutorials/rp/advanced.md
   - LLM 技術教學:

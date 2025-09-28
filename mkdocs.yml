@@ -13,16 +13,16 @@ theme:
     # 淺色模式
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: brown # 主色調，可選 brown, teal, orange 等
-      accent: amber # 強調色，可選 amber, indigo 等
+      #primary: brown # 主色調，可選 brown, teal, orange 等
+      #accent: amber # 強調色，可選 amber, indigo 等
       toggle:
         icon: material/weather-sunny
         name: 切換至深色模式
     # 深色模式
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: brown
-      accent: amber
+      #primary: brown
+      #accent: amber
       toggle:
         icon: material/weather-night
         name: 切換至淺色模式
@@ -65,3 +65,6 @@ markdown_extensions:
   - toc:
       permalink: true # 為每個標題增加一個可點擊的錨點連結
       toc_depth: 3 # 目錄顯示到 H3 標題，您可以依需求調整
+
+extra_css:
+  - assets/css/custom.css

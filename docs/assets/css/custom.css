@@ -1,0 +1,422 @@
+/* AI深夜奶茶店 Wiki 自定義樣式 */
+
+:root {
+  /* 淺色模式 - 奶茶色調 */
+  --md-primary-fg-color: #8B4513;          /* 深咖啡色 */
+  --md-primary-fg-color--light: #CD853F;    /* 沙棕色 */
+  --md-primary-fg-color--dark: #654321;     /* 深棕色 */
+  --md-accent-fg-color: #D2B48C;           /* 卡其色/奶茶色 */
+  --md-accent-fg-color--transparent: rgba(210, 180, 140, 0.1);
+  
+  /* 背景色調 */
+  --md-default-bg-color: #FFF8DC;          /* 玉米絲色，溫暖的奶茶背景 */
+  --md-default-fg-color: #3E2723;          /* 深棕色文字 */
+  --md-default-fg-color--light: #5D4037;   /* 較淺的棕色 */
+  --md-default-fg-color--lighter: #795548; /* 更淺的棕色 */
+  --md-default-fg-color--lightest: #BCAAA4;/* 最淺的棕色 */
+  
+  /* 代碼和區塊色調 */
+  --md-code-bg-color: #F5DEB3;             /* 小麥色 */
+  --md-code-fg-color: #8B4513;
+  --md-pre-bg-color: #F5DEB3;
+  --md-pre-color: #654321;
+  
+  /* 卡片和表面色調 */
+  --md-surface-color: rgba(245, 222, 179, 0.7); /* 半透明小麥色 */
+  --md-overlay-color: rgba(139, 69, 19, 0.1);   /* 半透明咖啡色 */
+  
+  /* 邊框和分隔線 */
+  --md-separator-color: rgba(210, 180, 140, 0.3);
+  
+  /* 自定義奶茶色調 */
+  --milktea-cream: #F5F5DC;        /* 米色 */
+  --milktea-brown: #D2691E;        /* 巧克力色 */
+  --milktea-light: #FFEFD5;        /* 番木瓜鞭色 */
+  --milktea-dark: #8B4513;         /* 馬鞍棕 */
+  --milktea-accent: #CD853F;       /* 秘魯色 */
+  
+  /* 漸層效果 */
+  --milktea-gradient: linear-gradient(135deg, #F5DEB3 0%, #DEB887 100%);
+  --milktea-card-shadow: 0 4px 12px rgba(139, 69, 19, 0.15);
+}
+
+/* 深色模式 */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #D2B48C;          /* 淺奶茶色 */
+  --md-primary-fg-color--light: #F5DEB3;    /* 更淺的奶茶色 */
+  --md-primary-fg-color--dark: #CD853F;     /* 中等奶茶色 */
+  --md-accent-fg-color: #DEB887;           /* 淺木色 */
+  --md-accent-fg-color--transparent: rgba(222, 184, 135, 0.1);
+  
+  /* 深色背景 */
+  --md-default-bg-color: #1A1A1A;          /* 深灰黑 */
+  --md-default-fg-color: #F5DEB3;          /* 奶茶色文字 */
+  --md-default-fg-color--light: #DEB887;   /* 淺木色 */
+  --md-default-fg-color--lighter: #D2B48C; /* 卡其色 */
+  --md-default-fg-color--lightest: #CD853F;/* 秘魯色 */
+  
+  /* 深色代碼區塊 */
+  --md-code-bg-color: #2D1B13;             /* 深咖啡色 */
+  --md-code-fg-color: #DEB887;
+  --md-pre-bg-color: #2D1B13;
+  --md-pre-color: #F5DEB3;
+  
+  /* 深色表面 */
+  --md-surface-color: rgba(45, 27, 19, 0.8);
+  --md-overlay-color: rgba(245, 222, 179, 0.1);
+  
+  /* 深色邊框 */
+  --md-separator-color: rgba(210, 180, 140, 0.2);
+  
+  /* 深色模式奶茶色調 */
+  --milktea-cream: #2D1B13;
+  --milktea-brown: #8B4513;
+  --milktea-light: #3E2723;
+  --milktea-dark: #1A1A1A;
+  --milktea-accent: #D2B48C;
+  
+  /* 深色漸層 */
+  --milktea-gradient: linear-gradient(135deg, #2D1B13 0%, #3E2723 100%);
+  --milktea-card-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* 全局字體優化 */
+body {
+  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+/* 標題樣式優化 */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-typeset h5,
+.md-typeset h6 {
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.md-typeset h1::before,
+.md-typeset h2::before {
+  content: '🧋';
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
+.md-typeset h3::before {
+  content: '☕';
+  margin-right: 0.5em;
+  font-size: 0.8em;
+}
+
+/* 導航欄美化 */
+.md-header {
+  background: var(--milktea-gradient) !important;
+  box-shadow: var(--milktea-card-shadow);
+  backdrop-filter: blur(10px);
+}
+
+.md-header-nav__title {
+  font-weight: 700;
+  color: var(--md-primary-fg-color--dark) !important;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+}
+
+/* 側邊欄美化 */
+.md-sidebar__scrollwrap {
+  background: var(--milktea-gradient);
+  border-radius: 0 15px 15px 0;
+}
+
+.md-nav__item .md-nav__link {
+  border-radius: 8px;
+  margin: 2px 8px;
+  transition: all 0.3s ease;
+}
+
+.md-nav__item .md-nav__link:hover {
+  background: var(--md-accent-fg-color--transparent);
+  transform: translateX(4px);
+  box-shadow: 2px 2px 8px rgba(139, 69, 19, 0.1);
+}
+
+.md-nav__item--active > .md-nav__link {
+  background: var(--md-primary-fg-color) !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+/* 主要內容區域 */
+.md-main__inner {
+  margin-top: 0;
+}
+
+.md-content {
+  background: var(--md-default-bg-color);
+  border-radius: 20px 20px 0 0;
+  box-shadow: var(--milktea-card-shadow);
+  overflow: hidden;
+}
+
+.md-content__inner {
+  padding: 2rem;
+}
+
+/* 卡片樣式 */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 15px;
+  background: var(--milktea-gradient);
+  border: 2px solid var(--md-accent-fg-color);
+  box-shadow: var(--milktea-card-shadow);
+  margin: 1.5rem 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.md-typeset .admonition:hover,
+.md-typeset details:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(139, 69, 19, 0.2);
+}
+
+.md-typeset .admonition-title,
+.md-typeset summary {
+  background: var(--md-primary-fg-color);
+  color: white !important;
+  font-weight: 600;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  border-bottom: none;
+}
+
+/* 連結預覽效果 */
+.md-typeset a {
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+.md-typeset a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--md-accent-fg-color);
+  transition: width 0.3s ease;
+}
+
+.md-typeset a:hover {
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color--dark);
+  transform: translateY(-1px);
+}
+
+.md-typeset a:hover::before {
+  width: 100%;
+}
+
+/* 連結預覽提示框 */
+.md-typeset a[href^="http"]::after {
+  content: attr(href);
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--md-primary-fg-color);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.md-typeset a[href^="http"]:hover::after {
+  opacity: 1;
+}
+
+/* Discord 連結特殊樣式 */
+.md-typeset a[href*="discord.gg"] {
+  background: linear-gradient(135deg, #5865F2 0%, #7289DA 100%);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 8px 4px;
+  box-shadow: 0 4px 12px rgba(88, 101, 242, 0.3);
+  transition: all 0.3s ease;
+}
+
+.md-typeset a[href*="discord.gg"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(88, 101, 242, 0.4);
+}
+
+.md-typeset a[href*="discord.gg"]::before {
+  content: '💬 ';
+  margin-right: 4px;
+}
+
+/* 代碼區塊美化 */
+.md-typeset pre,
+.md-typeset code {
+  background: var(--md-code-bg-color);
+  border-radius: 8px;
+  border: 1px solid var(--md-separator-color);
+}
+
+.md-typeset pre {
+  padding: 1.5rem;
+  box-shadow: inset 0 2px 6px rgba(139, 69, 19, 0.1);
+}
+
+.md-typeset :not(pre) > code {
+  padding: 2px 6px;
+  font-weight: 500;
+}
+
+/* 表格美化 */
+.md-typeset table {
+  background: var(--milktea-gradient);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--milktea-card-shadow);
+  border: none;
+}
+
+.md-typeset table th {
+  background: var(--md-primary-fg-color);
+  color: white;
+  font-weight: 600;
+  padding: 1rem;
+  border: none;
+}
+
+.md-typeset table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid var(--md-separator-color);
+}
+
+.md-typeset table tr:hover {
+  background: var(--md-accent-fg-color--transparent);
+}
+
+/* 按鈕樣式 */
+.md-button,
+.md-typeset .md-button {
+  background: var(--milktea-gradient);
+  color: var(--md-primary-fg-color--dark);
+  border: 2px solid var(--md-accent-fg-color);
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: var(--milktea-card-shadow);
+}
+
+.md-button:hover,
+.md-typeset .md-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.25);
+  background: var(--md-primary-fg-color);
+  color: white;
+}
+
+/* 頁腳美化 */
+.md-footer {
+  background: var(--milktea-gradient);
+  color: var(--md-primary-fg-color--dark);
+  border-top: 2px solid var(--md-accent-fg-color);
+}
+
+/* 搜索框美化 */
+.md-search__input {
+  background: var(--milktea-cream);
+  border: 2px solid var(--md-accent-fg-color);
+  border-radius: 12px;
+  color: var(--md-primary-fg-color);
+}
+
+.md-search__input:focus {
+  border-color: var(--md-primary-fg-color);
+  box-shadow: 0 0 0 3px var(--md-accent-fg-color--transparent);
+}
+
+/* 返回頂部按鈕 */
+.md-top {
+  background: var(--md-primary-fg-color);
+  border-radius: 50%;
+  box-shadow: var(--milktea-card-shadow);
+  transition: all 0.3s ease;
+}
+
+.md-top:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(139, 69, 19, 0.3);
+}
+
+/* 響應式設計 */
+@media screen and (max-width: 768px) {
+  .md-content__inner {
+    padding: 1rem;
+  }
+  
+  .md-typeset h1::before,
+  .md-typeset h2::before,
+  .md-typeset h3::before {
+    display: none;
+  }
+}
+
+/* 動畫效果 */
+@keyframes milktea-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-5px); }
+}
+
+.md-header-nav__title::after {
+  content: '🧋';
+  margin-left: 0.5em;
+  animation: milktea-float 3s ease-in-out infinite;
+  display: inline-block;
+}
+
+/* 滾動條美化 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--milktea-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--md-accent-fg-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--md-primary-fg-color);
+}
+
+/* 選中文字的顏色 */
+::selection {
+  background: var(--md-accent-fg-color);
+  color: var(--md-primary-fg-color--dark);
+}

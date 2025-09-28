@@ -1,123 +1,149 @@
-/* AI深夜奶茶店 Wiki - 精簡優化版樣式 */
-/* 設計理念：簡潔、高對比、溫暖點綴 */
+/* AI深夜奶茶店 Wiki - "Creamy Tech" 溫潤科技感樣式 v2.0 */
 
-/* --- 1. 色彩與字體定義 (Palette & Typography) --- */
+/* --- 1. 全新色彩與字體系統 (New Color & Font System) --- */
 :root {
   /* 基礎設定 */
-  --md-text-font: "Noto Sans TC", sans-serif; /* 全局字體 */
-  --md-code-font: "Roboto Mono", monospace;     /* 程式碼字體 */
+  --md-text-font: "Noto Sans TC", sans-serif;
+  --md-code-font: "Roboto Mono", monospace;
 
-  /* 淺色模式 - 乾淨背景搭配溫暖的奶茶色點綴 */
-  --md-primary-fg-color:        #8B4513; /* 馬鞍棕 (主色，用於標題和重要元素) */
-  --md-accent-fg-color:         #CD853F; /* 秘魯色 (強調色，用於連結和互動元素) */
-  --md-default-bg-color:        #FFFFFF; /* 純白背景，提供最佳對比度 */
-  --md-default-fg-color:        #2D2D2D; /* 深灰色文字，比純黑柔和 */
-  --md-code-bg-color:           #F5F2F0; /* 淺灰色程式碼背景 */
-  --md-admonition-bg-color:     #FFF8F2; /* 溫暖的提示框背景 */
-  --md-footer-bg-color:         #F5F2F0; /* 頁尾背景 */
+  /* 科技感亮點色 (AI Glow) */
+  --md-accent-fg-color: #3B82F6; /* 一種鮮活的科技藍 */
+  --md-accent-fg-color--transparent: rgba(59, 130, 246, 0.1);
+  --md-accent-glow-color: rgba(59, 130, 246, 0.3);
+
+  /* 淺色模式 - 溫潤的奶茶色系背景 */
+  --md-default-bg-color: #FDFBF7; /* 溫暖的杏仁白，取代純白 */
+  --md-default-fg-color: #4A3F35; /* 深可可色文字，比純黑柔和 */
+  --md-primary-fg-color: #8B4513; /* 馬鞍棕 (主色，用於標題) */
+  --md-surface-color: rgba(245, 240, 235, 0.8); /* 半透明奶霜色 (用於卡片) */
+  --md-border-color: rgba(139, 69, 19, 0.15); /* 細緻的棕色邊框 */
+  --md-code-bg-color: #F5F0EB;
+  --md-footer-bg-color: #F5F0EB;
 }
 
-/* 深色模式 - 沉穩背景搭配溫和的奶茶色文字 */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #D2B48C; /* 卡其色 (主色) */
-  --md-accent-fg-color:         #DEB887; /* 淺木色 (強調色) */
-  --md-default-bg-color:        #1A1A1A; /* 深炭灰背景 */
-  --md-default-fg-color:        rgba(255, 255, 255, 0.87); /* 帶透明度的白色文字 */
-  --md-code-bg-color:           #2D1B13; /* 深咖啡程式碼背景 */
-  --md-admonition-bg-color:     #2D2724; /* 深色提示框背景 */
-  --md-footer-bg-color:         #2D1B13;
+  /* 科技感亮點色 (AI Glow) */
+  --md-accent-fg-color: #58A6FF; /* 更亮的科技藍，在深色背景中更突出 */
+  --md-accent-fg-color--transparent: rgba(88, 166, 255, 0.1);
+  --md-accent-glow-color: rgba(88, 166, 255, 0.3);
+
+  /* 深色模式 - 沉穩的摩卡色系背景 */
+  --md-default-bg-color: #261F1A; /* 深摩卡色，取代過深的炭黑 */
+  --md-default-fg-color: #E0D5CC; /* 柔和的米色文字 */
+  --md-primary-fg-color: #D2B48C; /* 卡其色 (主色) */
+  --md-surface-color: rgba(45, 39, 34, 0.8); /* 半透明深摩卡色 (用於卡片) */
+  --md-border-color: rgba(210, 180, 140, 0.2);
+  --md-code-bg-color: #3A2F29;
+  --md-footer-bg-color: #3A2F29;
 }
 
-/* --- 2. 基礎元素調整 (Base Elements) --- */
+/* --- 2. 基礎與佈局美化 (Base & Layout) --- */
 
 body {
-  line-height: 1.75; /* 增加行高，提升閱讀舒適度 */
-  letter-spacing: 0.03em;
+  background-color: var(--md-default-bg-color); /* 讓整個頁面都有背景色 */
 }
 
-/* 簡化標題，移除 emoji，增加呼吸感 */
-.md-typeset h1, .md-typeset h2 {
-  letter-spacing: 0.05em;
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid var(--md-accent-fg-color);
-  margin-top: 2em;
-}
-
-.md-typeset h3 {
-  margin-top: 1.8em;
-}
-
-/* 連結樣式：更簡潔的下劃線動畫 */
-.md-typeset a {
-  color: var(--md-accent-fg-color);
-  text-decoration: none;
-  background-image: linear-gradient(var(--md-accent-fg-color), var(--md-accent-fg-color));
-  background-position: 0% 100%;
-  background-repeat: no-repeat;
-  background-size: 0% 2px;
-  transition: background-size .3s;
-}
-
-.md-typeset a:hover {
-  background-size: 100% 2px;
-}
-
-/* --- 3. 佈局與元件美化 (Layout & Components) --- */
-
-/* 頂部導覽列：移除漸層，使用乾淨的單色，增加細緻邊框 */
+/* 頂部導覽列：增加細微的玻璃擬態效果 */
 .md-header {
-  background-color: var(--md-default-bg-color);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  box-shadow: none;
+  background-color: var(--md-surface-color);
+  backdrop-filter: blur(10px); /* 模糊背景，營造層次感 */
+  border-bottom: 1px solid var(--md-border-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 [data-md-color-scheme="slate"] .md-header {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* 側邊欄：增加細微的背景色區分 */
-.md-sidebar {
-  background-color: var(--md-code-bg-color);
-}
-
-/* 當前有效連結的樣式，更柔和 */
+/* 側邊欄：當前項目增加科技光暈效果 */
 .md-nav__item .md-nav__link--active {
-  background-color: rgba(139, 69, 19, 0.1);
-  color: var(--md-primary-fg-color);
+  color: var(--md-accent-fg-color);
   font-weight: 600;
-}
-[data-md-color-scheme="slate"] .md-nav__item .md-nav__link--active {
-  background-color: rgba(210, 180, 140, 0.1);
+  background-color: var(--md-accent-fg-color--transparent);
+  box-shadow: 0 0 15px var(--md-accent-glow-color);
+  border-radius: 4px;
 }
 
-/* 提示框(Admonition)：經典左側色條樣式，更清晰易讀 */
+/* --- 3. 內容元素精緻化 (Content Elements) --- */
+
+/* 標題：用亮點色和漸層線條增加科技感 */
+.md-typeset h1, .md-typeset h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, var(--md-accent-fg-color), var(--md-primary-fg-color)) 1;
+  color: var(--md-primary-fg-color);
+}
+.md-typeset h2 {
+  border-image: linear-gradient(to right, var(--md-accent-fg-color), transparent) 1;
+}
+
+/* 連結：使用科技藍，並帶有發光懸停效果 */
+.md-typeset a {
+  color: var(--md-accent-fg-color);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease-out;
+  border-bottom: 1px solid transparent;
+}
+.md-typeset a:hover {
+  border-bottom-color: var(--md-accent-fg-color);
+  text-shadow: 0 0 8px var(--md-accent-glow-color); /* 懸停時文字發光 */
+}
+
+/* 提示框(Admonition)：更柔和的卡片設計 */
 .md-typeset .admonition, .md-typeset details {
-  background-color: var(--md-admonition-bg-color);
-  border: 1px solid var(--md-accent-fg-color);
-  border-left-width: 4px;
-  border-radius: 4px; /* 統一圓角 */
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  background-color: var(--md-surface-color);
+  border: 1px solid var(--md-border-color);
+  border-left: 4px solid var(--md-primary-fg-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition,
+[data-md-color-scheme="slate"] .md-typeset details {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .md-typeset .admonition-title, .md-typeset summary {
-  background-color: rgba(139, 69, 19, 0.05);
-  border-bottom: 1px solid var(--md-accent-fg-color);
+  background-color: transparent;
+  border-bottom: 1px solid var(--md-border-color);
   font-weight: 600;
   color: var(--md-primary-fg-color);
 }
-[data-md-color-scheme="slate"] .md-typeset .admonition-title,
-[data-md-color-scheme="slate"] .md-typeset summary {
-  background-color: rgba(210, 180, 140, 0.05);
-}
 
-/* 表格：回歸簡潔線條，專注於內容呈現 */
-.md-typeset table {
-  border: 1px solid var(--md-grey-200);
-}
-.md-typeset table th {
+/* 程式碼區塊：增加頂部標題列，模仿終端機視窗 */
+.md-typeset pre > code {
   background-color: var(--md-code-bg-color);
+  border-radius: 8px;
+  position: relative;
+  display: block;
+  padding-top: 2.5rem; /* 為標題列留出空間 */
 }
 
-/* Discord 連結特殊樣式：保留但微調 */
+.md-typeset pre > code::before {
+  content: 'AI Console';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
+  background-color: var(--md-primary-fg-color);
+  color: var(--md-default-bg-color);
+  font-family: var(--md-text-font);
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* 行內程式碼 */
+.md-typeset :not(pre) > code {
+  background-color: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+  padding: .2em .4em;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+/* Discord 連結特殊樣式 */
 .md-typeset a[href*="discord.gg"] {
   background: #5865F2;
   color: white !important;
@@ -125,16 +151,18 @@ body {
   border-radius: 6px;
   font-weight: 500;
   transition: all 0.2s ease-out;
+  border-bottom: none; /* 移除繼承的下劃線 */
 }
 
 .md-typeset a[href*="discord.gg"]:hover {
   background: #4A56D9;
   transform: translateY(-1px);
-  box-shadow: 0 4px 10px rgba(88, 101, 242, 0.2);
-  background-size: 100% 2px; /* 修正 hover 時的樣式衝突 */
+  box-shadow: 0 4px 15px rgba(88, 101, 242, 0.3);
+  border-bottom: none;
 }
 
 /* 頁尾 */
 .md-footer {
   background-color: var(--md-footer-bg-color);
+  border-top: 1px solid var(--md-border-color);
 }

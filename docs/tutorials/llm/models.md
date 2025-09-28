@@ -1,5 +1,6 @@
 ---
 title: "【LLM 技術教學-模型介紹】"
+description: "LLM模型介紹，分析各家模型在AI RP上的優缺點。"
 date: "2025-09-12"
 author: "Nameless-Adia"
 tags:

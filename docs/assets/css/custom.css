@@ -18,7 +18,7 @@
   --md-surface-color: rgba(245, 240, 235, 0.8); /* 半透明奶霜色 (用於卡片) */
   --md-border-color: rgba(139, 69, 19, 0.15); /* 細緻的棕色邊框 */
   --md-code-bg-color: #F5F0EB;
-  --md-footer-bg-color: #684016dc;
+  --md-footer-bg-color: #fce4be;
 }
 
 [data-md-color-scheme="slate"] {
@@ -45,10 +45,14 @@ body {
 
 /* 頂部導覽列：增加細微的玻璃擬態效果 */
 .md-header {
-  background-color: var(--md-surface-color);
-  backdrop-filter: blur(10px); /* 模糊背景，營造層次感 */
-  border-bottom: 1px solid var(--md-border-color);
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  /* 將背景色改為定義好的強調色 */
+  background-color: var(--md-accent-fg-color); /* #3B82F6 科技藍 */
+  
+  /* 移除模糊效果 */
+  /* backdrop-filter: blur(10px); */
+  
+  border-bottom: 1px solid var(--md-accent-fg-color);
+  box-shadow: 0 2px 15px var(--md-accent-glow-color); /* 使用藍色光暈陰影 */
 }
 [data-md-color-scheme="slate"] .md-header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);

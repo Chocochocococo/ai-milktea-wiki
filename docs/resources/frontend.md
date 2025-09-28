@@ -11,70 +11,70 @@ tags:
   - AI RP
   - AI聊天
 ---
-# 中文介面
-## Silly Tavern
+# AI聊天前端平台列表
+## 中文介面
+### Silly Tavern
 官網：https://docs.sillytavern.app/  
 Discord：https://discord.gg/sillytavern  
-## RisuAI
+### RisuAI
 官網：https://risuai.xyz/  
 Discord：https://discord.gg/JzP8tB9ZK8  
-## Poe
+### Poe
 官網：https://poe.com/  
 Discord：https://discord.gg/joinpoe  
-## character.ai
+### character.ai
 官網：http://character.ai/  
 Discord：https://discord.gg/characterai  
-## Caveduck
+### Caveduck
 官網：https://caveduck.io/?locale=zh-hant  
 Discord：https://discord.gg/WHrMW5jaHQ  
-# LoveyDovey
+### LoveyDovey
 官網：https://www.loveydovey.ai/  
 目前僅有手機APP版。無社群。
 
-# 英文介面
-## Agnai
+### Agnai
 官網：https://agnai.chat/  
 Discord：https://discord.gg/DAn38sA8Qj  
-## shapes inc
+### shapes inc
 官網：https://talk.shapes.inc/  
 Discord：https://discord.gg/shapes  
-## Chub AI
+### Chub AI
 官網：https://chub.ai/  
 Discord：https://discord.gg/chubai  
-## JanitorAI
+### JanitorAI
 官網：https://janitorai.com/  
 Discord：https://discord.gg/janitorai  
-## Kindroid
+### Kindroid
 官網：https://kindroid.ai/  
 Discord：https://discord.gg/kindroid  
-## SpicyChat
+### SpicyChat
 官網：https://spicychat.ai/    
 Discord：https://discord.gg/spicychatai  
-## Yodayo/Moescape
+### Yodayo/Moescape
 官網：https://yodayo.com/  
 官網：https://moescape.ai/  
 Discord：https://discord.gg/moescapeai  
-## Dreamjourneyai
+### Dreamjourneyai
 官網：https://www.dreamjourneyai.com/  
 Discord：https://discord.gg/najQEtdjxy  
-## WyvernChat
+### WyvernChat
 官網：https://app.wyvern.chat/  
 Discord：https://discord.gg/wyvernchat  
-## AI DUNGEON
+### AI DUNGEON
 官網：https://aidungeon.com/  
 Discord：https://discord.gg/HB2YBZYjyf  
-## Joyland
+### Joyland
 官網：https://www.joyland.ai/  
 Discord：https://discord.gg/6taKr5z7Qh  
-## CharHub
+### CharHub
 官網：https://charhub.ai/  
 Discord：https://discord.gg/kc6sB9pn8e  
-## ⭐Charstar
+### ⭐Charstar
 官網：https://charstar.ai/  
 Discord：https://discord.gg/EufYaC3Qqk  
-## Venus.AI
+### Venus.AI
 官網：https://www.venuschat.ai/  
 Discord：https://discord.gg/venusai-1102189685511565334  
-## PygmalionAI
+### PygmalionAI
 官網：https://pygmalion.chat/  
 Discord：https://discord.gg/pygmalionai  

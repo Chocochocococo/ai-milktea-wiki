@@ -12,13 +12,13 @@
   --md-accent-glow-color: rgba(59, 130, 246, 0.3);
 
   /* 淺色模式 - 溫潤的奶茶色系背景 */
-  --md-default-bg-color: #e8be86; /* 溫暖的杏仁白，取代純白 */
+  --md-default-bg-color: #fcecd8; /* 溫暖的杏仁白，取代純白 */
   --md-default-fg-color: #4A3F35; /* 深可可色文字，比純黑柔和 */
   --md-primary-fg-color: #8B4513; /* 馬鞍棕 (主色，用於標題) */
   --md-surface-color: rgba(245, 240, 235, 0.8); /* 半透明奶霜色 (用於卡片) */
   --md-border-color: rgba(139, 69, 19, 0.15); /* 細緻的棕色邊框 */
   --md-code-bg-color: #F5F0EB;
-  --md-footer-bg-color: #fcddbe;
+  --md-footer-bg-color: #684016dc;
 }
 
 [data-md-color-scheme="slate"] {

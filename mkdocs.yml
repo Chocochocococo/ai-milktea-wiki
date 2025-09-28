@@ -41,7 +41,6 @@ theme:
 nav:
   - 首頁: index.md
   - 伺服器指南:
-    - 關於我們: server/about.md
     - 入店須知: server/rules.md
     - 頻道介紹: server/channels.md
   - AI RP 教學:

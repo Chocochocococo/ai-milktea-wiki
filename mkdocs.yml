@@ -50,6 +50,7 @@ nav:
     - 模型介紹: tutorials/llm/models.md
     - Prompt Engineering: tutorials/llm/prompt-engineering.md
   - 資源分享:
+    - 前端平台列表: resources/frontend.md
     - 優質資源列表: resources/awesome-list.md
     - 工具推薦: resources/tools.md
   - 貢獻指南: CONTRIBUTING.md

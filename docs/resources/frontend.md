@@ -31,7 +31,7 @@ Discord：https://discord.gg/WHrMW5jaHQ
 ### LoveyDovey
 官網：https://www.loveydovey.ai/  
 目前僅有手機APP版。無社群。
-
+## 英文介面
 ### Agnai
 官網：https://agnai.chat/  
 Discord：https://discord.gg/DAn38sA8Qj  

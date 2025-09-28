@@ -7,7 +7,7 @@
   --md-code-font: "Roboto Mono", monospace;
 
   /* 科技感亮點色 (AI Glow) */
-  --md-accent-fg-color: #3B82F6; /* 一種鮮活的科技藍 */
+  --md-accent-fg-color: #ffe0a3; /* 一種鮮活的科技藍 */
   --md-accent-fg-color--transparent: rgba(59, 130, 246, 0.1);
   --md-accent-glow-color: rgba(59, 130, 246, 0.3);
 
@@ -23,7 +23,7 @@
 
 [data-md-color-scheme="slate"] {
   /* 科技感亮點色 (AI Glow) */
-  --md-accent-fg-color: #58A6FF; /* 更亮的科技藍，在深色背景中更突出 */
+  --md-accent-fg-color: #633f0f; /* 更亮的科技藍，在深色背景中更突出 */
   --md-accent-fg-color--transparent: rgba(88, 166, 255, 0.1);
   --md-accent-glow-color: rgba(88, 166, 255, 0.3);
 

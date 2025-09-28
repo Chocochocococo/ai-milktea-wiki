@@ -7,7 +7,7 @@
   --md-code-font: "Roboto Mono", monospace;
 
   /* 科技感亮點色 (AI Glow) */
-  --md-accent-fg-color: #ffe0a3; /* 一種鮮活的科技藍 */
+  --md-accent-fg-color: #4A3F35; /* 一種鮮活的科技藍 */
   --md-accent-fg-color--transparent: rgba(59, 130, 246, 0.1);
   --md-accent-glow-color: rgba(59, 130, 246, 0.3);
 

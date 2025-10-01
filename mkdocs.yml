@@ -48,7 +48,7 @@ nav:
     - 進階技巧: tutorials/rp/advanced.md
   - LLM 技術教學:
     - 模型介紹: tutorials/llm/models.md
-    - Prompt Engineering: tutorials/llm/prompt-engineering.md
+    - 客人評價: llm/guestreviews.md
   - 資源分享:
     - 前端平台列表: resources/frontend.md
     - 優質資源列表: resources/awesome-list.md

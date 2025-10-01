@@ -1,6 +1,11 @@
 ---
 title: "歡迎來到AI深夜奶茶店Wiki！"
+date: "2025-09-10"
 description: "AI深夜奶茶店是專門討論AI RP的Discord社群，此Wiki是由本社群經營的知識庫。"
+author: "AI深夜奶茶店"
+tags:
+  - AI深夜奶茶店
+  - 首頁
 ---
 
 # 歡迎來到 AI深夜奶茶店 Wiki！

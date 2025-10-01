@@ -4,6 +4,7 @@ description: "【此頁面的描述，不會出現在網頁上，是提供給Goo
 date: "YYYY-MM-DD"
 author: "【請填寫您的 Discord ID 或暱稱】"
 tags:
+  - AI深夜奶茶店
   - 教學
   - 【請填寫主要分類，如 AI RP 或 LLM】
   - 【請填寫次要標籤】

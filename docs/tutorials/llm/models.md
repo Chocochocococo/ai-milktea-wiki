@@ -1,11 +1,12 @@
 ---
-title: "【LLM 技術教學-模型介紹】"
+title: "【AI深夜奶茶店的LLM技術教學-模型介紹】"
 description: "LLM模型介紹，分析各家模型在AI RP上的優缺點。"
 date: "2025-09-12"
 author: "Nameless-Adia"
 tags:
   - LLM
   - 介紹
+  - AI深夜奶茶店
 ---
 
 ## Gemini  
@@ -28,12 +29,14 @@ tags:
 - 官網頁面：[點此前往](https://chatgpt.com/)  
 - API申請頁面：[點此前往](https://platform.openai.com/settings/organization/api-keys)  
 - API亮點：  
-    - 待填  
+    - 知識廣泛  
+    - 情感豐富  
 - API缺點：  
     - 審查最嚴格：敏感題材相當受限。  
     - 新模型問題：中文圈對最新模型gpt-5的RP評價不佳，gpt-5-chat-latest較適合RP，但評價仍然遠遠不及舊的chatgpt-4o-latest。（但4ol的價格較貴。）
     - 缺乏主動性：在推進劇情方面較為被動，若提示詞未調整好，可能經常需要等待User推進下一步。  
 - API價格：[官方定價頁面](https://platform.openai.com/docs/pricing)  
+- 由於店員較少使用，因此邀請奶茶店的客人寫下評價，歡迎前往[客人評論](guestreviews.md)查看更多評價。 
 ## Claude  
 - 開發公司：Anthropic  
 - 官網頁面：[點此前往](https://claude.ai/new)  
@@ -42,7 +45,8 @@ tags:
     - 細膩的情感描述：非常適合酸甜的戀愛RP。  
 - API缺點：  
     - 分詞器極差：同樣的Token數量能讀取到的字數較少，或是同樣字數卻因為Token數較多而更貴。  
-- API價格：  
+- API價格：[官方定價頁面](https://docs.claude.com/en/docs/about-claude/pricing)    
+- 由於店員較少使用，因此邀請奶茶店的客人寫下評價，歡迎前往[客人評論](guestreviews.md)查看更多評價。  
 ## Mistral  
 適合用來進行輔助的模型，如果願意使用英文遊玩RP，也能獨攬全局。  
 

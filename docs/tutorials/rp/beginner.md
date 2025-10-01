@@ -1,8 +1,10 @@
 ---
-title: "【AI相關基本知識】"
+title: "【AI深夜奶茶店-AI相關基本知識】"
 date: "2025-09-27"
+description: "AI相關的基本知識。"
 author: "kusa-yaki"
 tags:
+  - AI深夜奶茶店
   - LLM
   - 教學
 ---

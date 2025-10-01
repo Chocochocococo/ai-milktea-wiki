@@ -1,10 +1,14 @@
 ---
 title: "【伺服器指南-入店須知】"
 date: "2025-09-13"
+description: "AI深夜奶茶店的入店須知。"
 author: "Nameless-Adia"
 tags:
   - 伺服器
   - 介紹
+  - AI深夜奶茶店
+  - 規定
+  - 店規
 ---
 
 ## 未成年可以加入嗎？  

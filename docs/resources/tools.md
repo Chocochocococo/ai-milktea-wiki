@@ -1,10 +1,10 @@
 ---
-title: "【施工中，敬請期待！】"
+title: "【工具推薦】"
 date: "2025-09-27"
 description: "有助於AI RP的工具推薦。"
 author: "kusa-yaki"
 tags:
-  - 資源
+  - 工具
   - AI深夜奶茶店
 ---
 
@@ -33,3 +33,4 @@ https://github.com/Chocochocococo/CocoCatch2
 
 ### 可可翻譯 ~CoCo Translate~ - 可可
 https://hypnotic-denim-05e.notion.site/CoCo-Translate-175cbce1913780ca8efbf2267976a0a7
+

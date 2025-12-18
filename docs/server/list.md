@@ -151,7 +151,7 @@ tags:
 
 [【SillyTavern】世界書批量編輯擴充](https://discord.com/channels/1327283064476270603/1428298593462259732)
 
-[【SillyTavern】讓知識書條目自由的插入至完整提示詞中的任何地方：outlet／setvar ＆ getvar](https://discord.com/channels/1327283064476270603/1424000857384419440)
+[【SillyTavern】讓知識書條目自由的插入至完整提示詞中的任何地方：outlet／setvar ＆ getvar](https://discord.com/channels/1327283064476270603/1427169582547730482)
 
 [【文字轉語音(SST)工具介紹】](https://discord.com/channels/1327283064476270603/1357801302653931540)
 

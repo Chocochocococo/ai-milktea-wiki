@@ -36,9 +36,6 @@ Discord：https://discord.gg/WHrMW5jaHQ
 ### Agnai
 官網：[https://agnai.chat/](https://agnai.chat/)  
 Discord：https://discord.gg/DAn38sA8Qj
-### shapes inc
-官網：[https://talk.shapes.inc/](https://talk.shapes.inc/)  
-Discord：https://discord.gg/shapes
 ### Chub AI
 官網：[https://chub.ai/](https://chub.ai/)  
 Discord：https://discord.gg/chubai
@@ -73,9 +70,9 @@ Discord：https://discord.gg/kc6sB9pn8e
 ### ⭐Charstar
 官網：[https://charstar.ai/](https://charstar.ai/)  
 Discord：https://discord.gg/EufYaC3Qqk
-### Venus.AI
-官網：[https://www.venuschat.ai/](https://www.venuschat.ai/)  
-Discord：https://discord.gg/venusai-1102189685511565334
 ### PygmalionAI
 官網：[https://pygmalion.chat/](https://pygmalion.chat/)  
 Discord：https://discord.gg/pygmalionai
+### shapes inc
+官網：[https://talk.shapes.inc/](https://talk.shapes.inc/)  
+Discord：https://discord.gg/shapes

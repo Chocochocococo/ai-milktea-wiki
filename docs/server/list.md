@@ -83,8 +83,7 @@ tags:
 
 ### SillyTavern
 #### ST使用教學
-[⁠【SillyTavern】ST快速入門＆免費API＆本地生文與算圖
-](https://discord.com/channels/1327283064476270603/1342160812931940448)
+[⁠【SillyTavern】ST快速入門＆免費API＆本地生文與算圖](https://discord.com/channels/1327283064476270603/1342160812931940448)
 
 [⁠【SillyTavern】新手大禮包&安裝教學](https://discord.com/channels/1327283064476270603/1368260360913682492)
 

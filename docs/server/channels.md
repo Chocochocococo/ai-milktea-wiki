@@ -39,7 +39,7 @@ tags:
 
 
 ### 主題集中  
-針對特定平台的討論與交流，目前（2025/9/13）主題有：SillyTavern、JanitorAI、Kindroid、官網RP、卿卿我我、平台綜合、LLM＆API＆提示詞。  
+針對特定平台的討論與交流，目前（2026/1/12）主題有：SillyTavern、JanitorAI、Kindroid、RisuAI、官網RP、卿卿我我、平台綜合、LLM＆API＆提示詞。  
 
 
 ### 語音室  

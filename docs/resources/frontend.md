@@ -16,66 +16,66 @@ tags:
 ## 中文介面
 ### Silly Tavern
 官網：[https://docs.sillytavern.app/](https://docs.sillytavern.app/)  
-Discord：[https://discord.gg/sillytavern](https://discord.gg/sillytavern)  
+Discord：https://discord.gg/sillytavern
 ### RisuAI
 官網：[https://risuai.xyz/](https://risuai.xyz/)  
-Discord：[https://discord.gg/JzP8tB9ZK8](https://discord.gg/JzP8tB9ZK8)  
+Discord：https://discord.gg/JzP8tB9ZK8
 ### Poe
 官網：[https://poe.com/](https://poe.com/)  
-Discord：[https://discord.gg/joinpoe](https://discord.gg/joinpoe)  
+Discord：https://discord.gg/joinpoe
 ### character.ai
 官網：[http://character.ai/](http://character.ai/)  
-Discord：[https://discord.gg/characterai](https://discord.gg/characterai)  
+Discord：https://discord.gg/characterai
 ### Caveduck
 官網：[https://caveduck.io/?locale=zh-hant](https://caveduck.io/?locale=zh-hant)  
-Discord：[https://discord.gg/WHrMW5jaHQ](https://discord.gg/WHrMW5jaHQ)  
+Discord：https://discord.gg/WHrMW5jaHQ
 ### LoveyDovey
 官網：[https://www.loveydovey.ai/](https://www.loveydovey.ai/)  
 目前僅有手機APP版。無社群。
 ## 英文介面
 ### Agnai
 官網：[https://agnai.chat/](https://agnai.chat/)  
-Discord：[https://discord.gg/DAn38sA8Qj](https://discord.gg/DAn38sA8Qj)  
+Discord：https://discord.gg/DAn38sA8Qj
 ### shapes inc
 官網：[https://talk.shapes.inc/](https://talk.shapes.inc/)  
-Discord：[https://discord.gg/shapes](https://discord.gg/shapes)  
+Discord：https://discord.gg/shapes
 ### Chub AI
 官網：[https://chub.ai/](https://chub.ai/)  
-Discord：[https://discord.gg/chubai](https://discord.gg/chubai)  
+Discord：https://discord.gg/chubai
 ### JanitorAI
 官網：[https://janitorai.com/](https://janitorai.com/)  
-Discord：[https://discord.gg/janitorai](https://discord.gg/janitorai)  
+Discord：https://discord.gg/janitorai
 ### Kindroid
 官網：[https://kindroid.ai/](https://kindroid.ai/)  
-Discord：[https://discord.gg/kindroid](https://discord.gg/kindroid)  
+Discord：https://discord.gg/kindroid
 ### SpicyChat
 官網：[https://spicychat.ai/](https://spicychat.ai/)    
-Discord：[https://discord.gg/spicychatai](https://discord.gg/spicychatai)  
+Discord：https://discord.gg/spicychatai
 ### Yodayo/Moescape
 官網：[https://yodayo.com/](https://yodayo.com/)  
 官網：[https://moescape.ai/](https://moescape.ai/)  
-Discord：[https://discord.gg/moescapeai](https://discord.gg/moescapeai)  
+Discord：https://discord.gg/moescapeai
 ### Dreamjourneyai
 官網：[https://www.dreamjourneyai.com/](https://www.dreamjourneyai.com/)  
-Discord：[https://discord.gg/najQEtdjxy](https://discord.gg/najQEtdjxy)  
+Discord：https://discord.gg/najQEtdjxy
 ### WyvernChat
 官網：[https://app.wyvern.chat/](https://app.wyvern.chat/)  
-Discord：[https://discord.gg/wyvernchat](https://discord.gg/wyvernchat)  
+Discord：https://discord.gg/wyvernchat
 ### AI DUNGEON
 官網：[https://aidungeon.com/](https://aidungeon.com/)  
-Discord：[https://discord.gg/HB2YBZYjyf](https://discord.gg/HB2YBZYjyf)  
+Discord：https://discord.gg/HB2YBZYjyf
 ### Joyland
 官網：[https://www.joyland.ai/](https://www.joyland.ai/)  
-Discord：[https://discord.gg/6taKr5z7Qh](https://discord.gg/6taKr5z7Qh)  
+Discord：https://discord.gg/6taKr5z7Qh
 ### CharHub
 官網：[https://charhub.ai/](https://charhub.ai/)  
-Discord：[https://discord.gg/kc6sB9pn8e](https://discord.gg/kc6sB9pn8e)  
+Discord：https://discord.gg/kc6sB9pn8e
 ### ⭐Charstar
 官網：[https://charstar.ai/](https://charstar.ai/)  
-Discord：[https://discord.gg/EufYaC3Qqk](https://discord.gg/EufYaC3Qqk)  
+Discord：https://discord.gg/EufYaC3Qqk
 ### Venus.AI
 官網：[https://www.venuschat.ai/](https://www.venuschat.ai/)  
-Discord：[https://discord.gg/venusai-1102189685511565334](https://discord.gg/venusai-1102189685511565334)  
+Discord：https://discord.gg/venusai-1102189685511565334
 ### PygmalionAI
 官網：[https://pygmalion.chat/](https://pygmalion.chat/)  
-Discord：[https://discord.gg/pygmalionai](https://discord.gg/pygmalionai)  
+Discord：https://discord.gg/pygmalionai

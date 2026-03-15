@@ -11,6 +11,9 @@ tags:
 
 **以下為奶茶店成員/店員所撰寫的教學，更多詳情請至伺服器內利用搜尋查看**
 
+### RisuAI快速入門教學 - Dai
+[https://hackmd.io/@-VaDh9e4TdWdd4YJS9nB_A/HJgX2_z0lg](https://hackmd.io/@-VaDh9e4TdWdd4YJS9nB_A/HJgX2_z0lg)
+
 ### SillyTavern快速入門＆免費API＆本地生文與算圖 - Adia
 [https://zircon-golf-859.notion.site/AI-13b3263fe8fd8057b9bcd2bf9c8e6a79](https://zircon-golf-859.notion.site/AI-13b3263fe8fd8057b9bcd2bf9c8e6a79)
 
@@ -22,8 +25,3 @@ tags:
 
 ### JanitorAI 中文資訊站 – Vinni / vespervoid
 [https://janitorai-station-zh.notion.site/index](https://janitorai-station-zh.notion.site/index)
-
-### RisuAI快速入門教學 - Dai
-[https://hackmd.io/@-VaDh9e4TdWdd4YJS9nB_A/HJgX2_z0lg](https://hackmd.io/@-VaDh9e4TdWdd4YJS9nB_A/HJgX2_z0lg)
-
-

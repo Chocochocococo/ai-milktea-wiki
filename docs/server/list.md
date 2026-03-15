@@ -44,7 +44,7 @@ tags:
 [在TensorDock平台租GPU架設ComfyUI](https://discord.com/channels/1327283064476270603/1370391737280888994)
 
 
-## 角色卡製作
+## 角色卡製作&算圖
 ### 教學
 [【角色卡製作】寫作指南與資源集中](https://discord.com/channels/1327283064476270603/1349064439135211660)
 
@@ -52,12 +52,16 @@ tags:
 
 [【角色卡製作】極簡極快速的在SillyTavern創建角色卡教學](https://discord.com/channels/1327283064476270603/1405077948658089984)
 
+[【AI生圖懶人包】本地執行、或雲端租賃NTD5~20/hr](https://discord.com/channels/1327283064476270603/1428603068970307704)
+
+[【StabilityMatrix】本地算圖教學](https://discord.com/channels/1327283064476270603/1432309095880327299)
+
 ### 資源
 [Token計算機](https://discord.com/channels/1327283064476270603/1346809861924720671)
 
 [【角色卡製作】性癖詞彙清單](https://discord.com/channels/1327283064476270603/1348316750005014550)
 
-[【PixAI】算圖關鍵詞/LoRA/模型推薦](https://discord.com/channels/1327283064476270603/1351984028709949512)
+[【角色模板】創作多面向的立體角色](https://discord.com/channels/1327283064476270603/1481840090371063969)
 
 ## 前端
 
@@ -72,6 +76,12 @@ tags:
 
 [【提示詞轉換器】SillyTavern → RisuAI](https://discord.com/channels/1327283064476270603/1395151069390307348)
 
+[【Risuai】韓文卡片/模組/外掛翻譯機](https://discord.com/channels/1327283064476270603/1468290802185932841)
+
+[【Risuai】實用外掛3入](https://discord.com/channels/1327283064476270603/1471568683401744435)
+
+[【Risuai/SillyTavern】LLM輸出簡體轉繁體、中國用語轉台灣用語的Regex](https://discord.com/channels/1327283064476270603/1477269042849906820)
+
 
 ### Agnaistic
 [Agnaistic使用簡介](https://discord.com/channels/1327283064476270603/1403084099782181055)
@@ -84,8 +94,6 @@ tags:
 ### SillyTavern
 #### ST使用教學
 [⁠【SillyTavern】ST快速入門＆免費API＆本地生文與算圖](https://discord.com/channels/1327283064476270603/1342160812931940448)
-
-[⁠【SillyTavern】新手大禮包&安裝教學](https://discord.com/channels/1327283064476270603/1368260360913682492)
 
 [⁠【SillyTavern】超入門安裝＋基礎環境設置](https://discord.com/channels/1327283064476270603/1377330047802671327)
 
@@ -104,16 +112,12 @@ tags:
 #### 安卓手機遠端同步
 [⁠【SillyTavern】電腦手機/平板同步指南](https://discord.com/channels/1327283064476270603/1351102015346049084)
 
-[⁠【SillyTavern】架設本地伺服器](https://discord.com/channels/1327283064476270603/1351171794698240053)
-
 
 #### 其他教學與工具
 
 ⁠[【SillyTavern】將酒館新增至主畫面的方法](https://discord.com/channels/1327283064476270603/1372435274709205012)
 
 [【SillyTavern】向量儲存－簡易教學](https://discord.com/channels/1327283064476270603/1403084099782181055)
-
-[【卿卿我我/SillyTavern】聊天紀錄轉換工具](https://discord.com/channels/1327283064476270603/1424957364649590915)
 
 #### ST相關工具
 [【Chrome擴充】截圖SillyTavern聊天室](https://discord.com/channels/1327283064476270603/1367124292067921961)
@@ -131,6 +135,8 @@ tags:
 
 [【SillyTavern】Magic Translation 翻譯插件教學＆提示詞分享（4/19 小更新）](https://discord.com/channels/1327283064476270603/1353212368665972769)
 
+[【SillyTavern】ST-PromptFolding 提示詞摺疊](https://discord.com/channels/1327283064476270603/1438752791471456346)
+
 [【SillyTavern】聊天路線管理：時間軸+頂部資訊欄](https://discord.com/channels/1327283064476270603/1342525462383165440)
 
 [【SillyTavern】User管理：快速選擇User](https://discord.com/channels/1327283064476270603/1342532964747055135)
@@ -141,16 +147,13 @@ tags:
 
 [【SillyTavern】ST Memory Books／摘要總結擴充](https://discord.com/channels/1327283064476270603/1424000857384419440)
 
-[【SillyTavern】Improved memory and summarization 記憶總結 - 特殊用法推薦](https://discord.com/channels/1327283064476270603/1360517696705269770)
-
 [【SillyTavern】Tracker（追蹤器狀態欄）](https://discord.com/channels/1327283064476270603/1361468496588046568)
 
 [【SillyTavern】Roadway 推劇情小助手 提示詞分享](https://discord.com/channels/1327283064476270603/1353759271367737344)
 
-
-[【SillyTavern】世界書批量編輯擴充](https://discord.com/channels/1327283064476270603/1428298593462259732)
-
 [【SillyTavern】讓知識書條目自由的插入至完整提示詞中的任何地方：outlet／setvar ＆ getvar](https://discord.com/channels/1327283064476270603/1427169582547730482)
+
+[【Risuai/SillyTavern】LLM輸出簡體轉繁體、中國用語轉台灣用語的Regex](https://discord.com/channels/1327283064476270603/1477269042849906820)
 
 [【文字轉語音(SST)工具介紹】](https://discord.com/channels/1327283064476270603/1357801302653931540)
 
@@ -161,6 +164,10 @@ tags:
 [【Discord】CoCo Bot-Discord聊天Bot製作工具](https://discord.com/channels/1327283064476270603/1369991797195149372)
 
 [【大冰奶】可以匯入ST卡跟預設/世界書的AI聊天網站](https://discord.com/channels/1327283064476270603/1414647815380144271)
+
+[【CSS/UI/Regex編輯工具】Regex UI Lab](https://discord.com/channels/1327283064476270603/1452694624018763907)
+
+[從零開始做桌寵](https://discord.com/channels/1327283064476270603/1479122082188103751)
 
 [⁠【Shapes】製作DC角色機器人](https://discord.com/channels/1327283064476270603/1342466430724997120)
 （已無法使用Shapes製作DC 聊天bot）
@@ -197,7 +204,6 @@ tags:
 
 [【Yodayo/Moescape AI】對話備份小工具](https://discord.com/channels/1327283064476270603/1347591473037578270)
 
-[【卿卿我我/SillyTavern】聊天紀錄轉換工具](https://discord.com/channels/1327283064476270603/1424957364649590915)
 
 ## 其他資源
 [AI式搜尋引擎](https://discord.com/channels/1327283064476270603/1346779020305633362)
@@ -211,4 +217,5 @@ tags:
 [【Mermaid】圖表製作工具分享](https://discord.com/channels/1327283064476270603/1362782593472270636)
 
 [【Discord】CoCo Bot-Discord聊天Bot製作工具](https://discord.com/channels/1327283064476270603/1370391737280888994)
+
 [GOM的OOC Time！](https://discord.com/channels/1327283064476270603/1395968884590383175)
